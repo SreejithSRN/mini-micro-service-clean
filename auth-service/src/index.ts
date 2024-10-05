@@ -10,4 +10,5 @@ import dbConnection from "./infrastructure/database/dbConnection"
         console.error(error?.message || "An error occured")
         process.exit(1)        
     }
+    
 })()

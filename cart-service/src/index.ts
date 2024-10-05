@@ -19,4 +19,5 @@ import { runConsumer } from "./infrastructure/kafka/consumer";
       process.exit(0);
     });
   }
+  
 })();

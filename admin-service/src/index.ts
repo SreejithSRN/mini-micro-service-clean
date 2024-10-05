@@ -11,6 +11,7 @@ import server from "./presentation/server"
         console.log("admin database connection successful")        
     } catch (error:any) {
         console.error("admin database connection failed",error.message)
+        
         process.exit(1)
     }
 })()

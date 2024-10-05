@@ -21,4 +21,6 @@ app.use("/cart",proxy("http://localhost:8004/"))
 
 app.listen(PORT,()=>{
     console.log(`Gateway is listening to Port: ${PORT}`)
+    
 })
+

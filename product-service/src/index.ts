@@ -8,4 +8,5 @@ import server from "./presentation/server";
     console.error("Error during initializing the server", error);
     process.exit(1);
   }
+  
 })();
