@@ -7,7 +7,7 @@ import dbConnection from "./infrastructure/database/dbConnection"
         server;
         await dbConnection()        
     } catch (error:any) {
-        console.error(error?.message || "An error occured")
+        console.error(error?.message || "An error occured....")
         process.exit(1)        
     }
     
