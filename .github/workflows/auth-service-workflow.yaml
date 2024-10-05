@@ -3,7 +3,7 @@ name: Build & Publish auth service Docker Image
 on:
   push:
     branches:
-      - main
+      - ['main']
     paths:
       - 'auth-service/**'
 
